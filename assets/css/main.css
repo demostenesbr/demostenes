@@ -117,7 +117,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: 'Lato', sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
@@ -3099,11 +3099,11 @@ input, select, textarea {
 		font-weight: 600;
 		height: 3.25em;
 		left: 0;
-		letter-spacing: 0.25em;
+		letter-spacing: 0em;
 		line-height: 3.25em;
 		margin: 0;
 		position: fixed;
-		text-transform: uppercase;
+		text-transform: capitalize;
 		top: 0;
 		width: 100%;
 		z-index: 10000;
@@ -3112,7 +3112,8 @@ input, select, textarea {
 		#header .logo {
 			border: 0;
 			display: inline-block;
-			font-size: 0.8em;
+			font-family: 'Homemade Apple', cursive;
+			font-size: 1.6em;
 			height: inherit;
 			line-height: inherit;
 			padding: 0 1.5em;
@@ -3123,8 +3124,8 @@ input, select, textarea {
 				-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-				background-color: #ffffff;
-				color: #242943;
+				background-color: transparent;
+				color: #ffffff;
 				display: inline-block;
 				line-height: 1.65em;
 				margin-right: 0.325em;
@@ -3132,11 +3133,13 @@ input, select, textarea {
 			}
 
 			#header .logo:hover strong {
-				background-color: #9bf1ff;
+				background-color: transparent;
+				color: #fea000;				
 			}
 
 			#header .logo:active strong {
-				background-color: #53e3fb;
+				background-color: transparent;
+				color: #53e3fb;				
 			}
 
 		#header nav {
@@ -3460,7 +3463,7 @@ input, select, textarea {
 				}
 
 		#banner.major {
-			height: 75vh;
+			height: 100vh;
 			min-height: 30em;
 			max-height: 50em;
 		}
