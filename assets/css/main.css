@@ -3119,6 +3119,12 @@ input, select, textarea {
 			padding: 0 1.5em;
 		}
 
+			#menu .start {
+				font-family: 'Homemade Apple', cursive;
+				text-transform: capitalize !important;
+				font-size: 2.0em;
+			}
+
 			#header .logo strong {
 				-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -3127,7 +3133,7 @@ input, select, textarea {
 				background-color: transparent;
 				color: #ffffff;
 				display: inline-block;
-				line-height: 1.65em;
+				line-height: 2.25em;
 				margin-right: 0.325em;
 				padding: 0 0.125em 0 0.375em;
 			}
@@ -3362,7 +3368,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		/*background-image: url("../../images/banner001.jpg");*/
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3566,14 +3572,15 @@ input, select, textarea {
 					padding: 8em 0 4em 0 ;
 				}
 
-		}
+			}
 
 /* Main */
 
 	#main {
-		background-color: #2a2f4a;
+		background-color: #242943;
+		color: #ffffff;
 	}
-
+		
 		#main > * {
 			border-top: solid 1px rgba(212, 212, 255, 0.1);
 		}
@@ -3606,6 +3613,8 @@ input, select, textarea {
 /* Contact */
 
 	#contact {
+		<!--background-color: #ffffff;-->
+		color: #242943;
 		border-bottom: solid 1px rgba(212, 212, 255, 0.1);
 		overflow-x: hidden;
 	}
@@ -3697,7 +3706,7 @@ input, select, textarea {
 
 		#footer .copyright li {
 			border-left: solid 1px rgba(212, 212, 255, 0.1);
-			color: rgba(244, 244, 255, 0.2);
+			color: rgba(244, 244, 255, 0.5);
 			display: inline-block;
 			line-height: 1;
 			margin-left: 1em;
