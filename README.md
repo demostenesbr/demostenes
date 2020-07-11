@@ -1,8 +1,3 @@
----
-
-
----
-
 <h1 id="hello">Hello!</h1>
 <p>My name is Demóstenes (/dɪˈmɒs.θəniːz/; Greek: Δημοσθένης, romanized: Dēmosthénēs; Attic Greek: [dɛːmosˈtʰenɛːs]). I’m full stack developer with more 10 years of experience combinating the front-end, back-end and full stack experiences with development, IT and marketing projects.</p>
 <h2 id="experiences">Experiences</h2>
